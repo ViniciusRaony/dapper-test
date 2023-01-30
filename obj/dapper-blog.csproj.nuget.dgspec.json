@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/vinicius/VSCodeProjects/dapper-blog/dapper-blog.csproj": {}
+  },
+  "projects": {
+    "/home/vinicius/VSCodeProjects/dapper-blog/dapper-blog.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vinicius/VSCodeProjects/dapper-blog/dapper-blog.csproj",
+        "projectName": "dapper-blog",
+        "projectPath": "/home/vinicius/VSCodeProjects/dapper-blog/dapper-blog.csproj",
+        "packagesPath": "/home/vinicius/.nuget/packages/",
+        "outputPath": "/home/vinicius/VSCodeProjects/dapper-blog/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vinicius/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
